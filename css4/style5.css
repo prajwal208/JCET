@@ -1,0 +1,104 @@
+.h11{
+    color: darkblue;
+    font-weight: 700;
+    text-align: center;
+    padding: 40px;
+    font-size: 50px;
+}
+
+.content1{
+    width: 1100px;
+    margin-left: 200px;
+    height: auto;
+}
+
+
+
+.container7 {
+    background-color: black;
+    padding-top: 10px;
+    height: auto;
+    margin-top: 40px;
+    
+}
+
+span {
+    width: 300px;
+    color: white;
+}
+
+svg {
+    color: white;
+}
+
+.h66 {
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.one {
+    margin-top: 40px;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 550px;
+    cursor: pointer;
+}
+
+.move1,
+.move2 {
+    margin-left: 40px;
+}
+
+@media screen and (max-width:500px){
+    .h11{
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    .imagee{
+        width: 380px;
+        height: 300px;
+    }
+
+    .logoo{
+        width: 355px;
+
+    }
+
+    #btnn{
+        display:none;
+    }
+
+    .h11{
+        font-size: 30px;
+    }
+
+    .content1{
+        width:370px;
+        margin-left:2px;
+        height: auto;
+    }
+
+
+    .container7{
+        height: auto;
+    }
+    
+    .two{
+       margin-left: 60px;
+    }
+    
+    svg{
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
